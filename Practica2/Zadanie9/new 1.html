@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Zadanie 9</title>
+    <style>
+    	* { padding: 0; margin: 0; }
+    	canvas { background: #eee; display: block; margin: 0 auto; }
+    </style>
+</head>
+<body>
+
+<canvas id="myCanvas" width="480" height="320"></canvas>
+
+<script>
+	var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("2d");
+
+ctx.font = '24px serif';
+ctx.fillText('Соколовский Жопу Соси', 90, 280);
+
+ctx.beginPath();
+ctx.rect(20, 40, 50, 60);
+ctx.fillStyle = "#FF0000";
+ctx.fill();
+ctx.closePath();
+
+ctx.beginPath();
+ctx.rect(30, 50, 30, 40);
+ctx.fillStyle = "#000000";
+ctx.fill();
+ctx.closePath();
+
+ctx.beginPath();
+ctx.arc(140, 160, 50, 0, Math.PI*2);
+ctx.fillStyle = "red";
+ctx.fill();
+ctx.closePath();
+
+ctx.beginPath();
+ctx.arc(140, 160, 30, 0, Math.PI*2);
+ctx.fillStyle = "black";
+ctx.fill();
+ctx.closePath();
+
+ctx.beginPath();
+		ctx.fillStyle = "red";
+    ctx.moveTo(105, 50);
+    ctx.lineTo(170, 75);
+    ctx.lineTo(170, 25);
+    ctx.fill();
+
+ctx.beginPath();
+		ctx.fillStyle = "black";
+    ctx.moveTo(145, 50);
+    ctx.lineTo(170, 75);
+    ctx.lineTo(170, 25);
+    ctx.fill();
+</script>
+
+</body>
+</html>
