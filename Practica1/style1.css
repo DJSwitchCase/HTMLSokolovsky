@@ -1,0 +1,22 @@
+h1
+{
+	font-family: fantasy;
+	font-size: 60;
+	font-weight: bold;
+	color: FFA500;
+}
+body
+{
+	background-color: FF0033;
+}
+button
+{
+font-family:Verdana;
+font-size: 40;
+position: center;
+font-weight: bold;
+color: FFA500;
+position: absolute;
+top: 300px;
+left:600px;
+}

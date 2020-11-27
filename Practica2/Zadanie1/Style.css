@@ -1,0 +1,15 @@
+p
+{
+  font-size: 15pt;
+  text-align: center;
+}
+.p1
+{
+  text-align: start;
+  text-indent: 40px;
+  font-size: 12pt;
+}
+li
+{
+  margin-bottom: 1em;
+}

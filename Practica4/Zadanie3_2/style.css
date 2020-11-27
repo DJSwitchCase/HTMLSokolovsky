@@ -1,0 +1,21 @@
+	table.uwu {
+		font-size: 14px;
+		width: 660px;
+		background: white;
+		text-align: left;
+		border-collapse: collapse;
+		color: #4682B4;
+}
+	table.uwu th {
+		font-weight: normal;
+		border-bottom: 2px solid #4682B4;
+		border-right: 20px solid white;
+		border-left: 20px solid white;
+		padding: 8px 10px;
+}
+	table.uwu td {
+		border-right: 20px solid white;
+		border-left: 20px solid white;
+		padding: 12px 10px;
+		color: #1E90FF;
+}

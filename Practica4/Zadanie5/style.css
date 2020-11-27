@@ -1,0 +1,12 @@
+	#uwu {
+      text-decoration: overline;
+      text-decoration-style: solid;
+      text-decoration-color: black;
+    }
+    #uwu:before {
+      content: '';
+      position: absolute;     
+      width: 5px;
+      border-top: 2px solid black;
+      transform: translate(-5px, -2px);
+    }

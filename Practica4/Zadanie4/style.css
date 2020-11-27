@@ -1,0 +1,23 @@
+div{
+	position: relative;
+    width: 400px;
+    height: 150px;
+    border: 5px solid black;
+    background: linear-gradient(to right, red 30%, white 0);
+    margin: 30px;
+}
+div::after{
+	position: absolute;
+	content: " ";
+    width: 18px;
+    height: 40px;
+    background: black;
+    right: -20px;
+    top: 50px;
+}
+div:nth-child(2){
+    background: linear-gradient(to right, yellow 60%, white 0);
+}
+div:nth-child(3){
+    background: green;
+}

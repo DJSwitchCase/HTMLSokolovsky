@@ -1,0 +1,18 @@
+a1 {
+	text-decoration: overline line-through;;
+	text-decoration-color: pink;
+	color: blue;
+}
+a2 {
+		text-decoration: underline;
+		text-decoration-color: green;
+		font-family: Georgia;
+		color: yellow;
+		
+}
+a3 {
+	text-decoration: underline;
+	text-decoration-color: orange;
+	font-style:oblique;
+	color: red;
+}
