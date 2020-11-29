@@ -1,29 +1,31 @@
-<style>
-	table.uwu{
-		text-decoration: none;
-		border-collapse:collapse;
+	table.uwu
+	{
 		width:100%;
-		text-align:center;}
-	table.uwu th
-	{font-weight:normal;
-	font-size:14px; 
-	color:#ffffff;
-	background-color:#354251;
+		text-align:center;
 	}
-	table.uwu td{
+
+	table.uwu th
+	{
+	font-weight:normal;
+	font-size:14px;
+	color: white;
+	background-color:#354251;
+
+	padding:5px 10px;
+	vertical-align: middle;
+	border: 1px solid #354251;
+	}
+
+	table.uwu td
+	{
 		font-size:13px;
 		color:#354251;
-		}
-	table.uwu td,table.uwu th{
-		white-space:pre-wrap;
-		padding:10px 19px;
-		line-height:13px;
-		vertical-align: middle;border: 1px solid #354251;
-		}	
+
+		padding:5px 10px;
+		vertical-align: middle;
+		border: 1px solid #354251;
+	}
+
 	table.uwu tr:hover{
 		background-color:#f9fafb
 		}
-	table.uwu tr:hover td{
-		color:#354251;cursor:pointer;
-		}
-</style>

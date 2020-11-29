@@ -1,17 +1,18 @@
 a1 {
-	text-decoration: overline line-through;;
-	text-decoration-color: pink;
+	text-decoration: underline;
+	text-decoration-color: red;
 	color: blue;
 }
 a2 {
-		text-decoration: underline;
+		text-decoration: line-through;
 		text-decoration-color: green;
+		text-decoration-style: dashed;
 		font-family: Georgia;
-		color: yellow;
-		
+		color: black;
+
 }
 a3 {
-	text-decoration: underline;
+	text-decoration:overline;
 	text-decoration-color: orange;
 	font-style:oblique;
 	color: red;
